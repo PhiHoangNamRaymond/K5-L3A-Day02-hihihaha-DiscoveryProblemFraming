@@ -26,8 +26,8 @@ Người chấm xem file `report/team/group_report.md` trên repo chung của nh
 | C6 — Hội tụ có lập luận | CP3 | 8 | Mục 2: cluster, cây OST, bảng chấm điểm, lý do chọn/loại | Có cây OST tách đúng opportunity và solution, bảng chấm điểm có lý do, giải thích vì sao loại ít nhất 2 candidate: 8. Chỉ bỏ phiếu không lý do: tối đa 3 |
 | C7 — Kiểm chứng + research | CP4 | 10 | Mục 3: assumption map, snapshot/survey, bảng research | Kiểm chứng đúng cách (hỏi hành vi đã xảy ra, không hỏi giả định), có tín hiệu phản bác, research có 2–3 nguồn với link mở được, problem được sửa sau kiểm chứng: 10. Câu hỏi dạng "Bạn có muốn…": trừ 3. Link chết hoặc số liệu không nguồn: trừ 2 |
 | C8 — Quy trình trước/sau | CP5 | 12 | Mục 4 + `report/assets/` | Quy trình hiện tại có actor/input/output/thời gian, bottleneck rõ; quy trình tương lai có bước con người kiểm tra, boundary, phương án quay về; có bảng before/after: 12. Thiếu phương án quay về: trừ 3. Thiếu thời gian từng bước: trừ 2 |
-| C9 — Problem Statement v0 → v1 | CP5, CP6 | 15 | Mục 5 + mục 7 | Đủ trường; success metric có baseline, target, cách đo; boundary ghi rõ AI không được làm gì; có 3–5 tiêu chí đánh giá; v1 khác v0 và có lý do: 15. Metric không đo được: trừ 5. Không có tiêu chí đánh giá: trừ 3 |
-| C10 — Mức can thiệp AI | CP6 | 8 | Mục 6: ma trận, bảng No AI/Rule/Workflow/Agent, AI Canvas, câu hỏi PAIR | Lập luận rõ vì sao không chọn mức đơn giản hơn, AI Canvas chỉ ra đúng dữ liệu cần có: 8. Chọn Agent mà không giải thích vì sao Workflow không đủ: tối đa 3 |
+| C9 — Problem Statement v0 → v1 | CP5, CP6 | 15 | Mục 5 + mục 7 | Đủ trường; success metric có baseline, target, cách đo; boundary ghi rõ AI không được làm gì; có 3–5 tiêu chí đánh giá; v1 khác v0 và có lý do: 15. Metric không đo được: trừ 5. Không có tiêu chí đánh giá: trừ 3. Nhóm chọn No AI hoặc Rule: tiêu chí đánh giá viết cho giải pháp không dùng AI, trường "AI intervention point" ghi "Không có" kèm lý do |
+| C10 — Mức can thiệp AI | CP6 | 8 | Mục 6: ma trận, bảng No AI/Rule/Workflow/Agent, AI Canvas, câu hỏi PAIR | Lập luận rõ vì sao không chọn mức đơn giản hơn, AI Canvas chỉ ra đúng dữ liệu cần có: 8. Chọn Agent mà không giải thích vì sao Workflow không đủ: tối đa 3. Nếu chọn No AI hoặc Rule: không cần AI Canvas và câu hỏi PAIR; chấm theo lập luận vì sao mức đó đủ và vì sao không cần mức cao hơn (xem worksheet CP6) |
 | C11 — Quyết định | CP6 | 7 | Mục 8: 4 rủi ro + quyết định + ngưỡng dừng | Đánh giá đủ 4 rủi ro có lý do, quyết định nhất quán với rủi ro, có ngưỡng dừng đo được và bước tiếp theo cụ thể: 7. Không có ngưỡng dừng: trừ 2 |
 | **Cộng phần nhóm** | | **60** | | |
 
@@ -39,7 +39,7 @@ Bonus là điểm cộng cho **chất lượng bài lab**, không phải điểm
 
 | Bonus | Điểm | Bằng chứng |
 |---|---:|---|
-| B1 — Scan rộng mà vẫn cụ thể: từ 10 problem trở lên, trải đủ 4 lăng kính, mỗi dòng có dấu hiệu thật | +3 | Báo cáo cá nhân mục 2 |
+| B1 — Scan rộng mà vẫn cụ thể: từ 10 problem trở lên, trải đủ 4 lăng kính, mỗi dòng có dấu hiệu thật. Ý do AI gợi ý được tính nếu bạn đã tự viết lại theo trải nghiệm thật, có dấu hiệu thật của chính bạn và có ghi rõ là ý từ AI | +3 | Báo cáo cá nhân mục 2 |
 | B2 — Kiểm chứng vượt yêu cầu: từ 5 interview snapshot trở lên hoặc survey từ 20 người trở lên, **và** kết quả làm nhóm sửa problem, metric hoặc quyết định | +4 | Báo cáo nhóm mục 3, phần "Nhóm đã sửa gì" |
 | B3 — Bộ eval mẫu: 10 cặp input/đầu ra mong đợi cho bước AI, mỗi cặp chấm theo tiêu chí đánh giá của nhóm | +3 | Báo cáo nhóm mục 7 hoặc file trong `report/assets/` |
 

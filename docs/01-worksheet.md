@@ -345,6 +345,15 @@ Với AI, "chạy được" chưa đủ. Viết 3–5 tiêu chí xác định đ
 
 Nếu không viết được tiêu chí đánh giá, nhóm chưa hiểu đủ "tốt" nghĩa là gì, và đó là dấu hiệu nên chọn **Not Yet**.
 
+### Nếu nhóm chọn No AI hoặc Rule
+
+Đây là kết luận hợp lệ, không bị trừ điểm. Khi đó:
+
+- **AI Canvas** và **2 câu hỏi PAIR**: không cần điền. Thay bằng 2–3 câu giải thích vì sao bài toán không cần AI dự đoán hay tạo nội dung (ví dụ: có đúng/sai rõ, Rule xử lý được phần lớn trường hợp, hoặc kiểm chứng cho thấy người dùng không muốn giao việc).
+- **Tiêu chí đánh giá**: viết 3–5 tiêu chí cho **giải pháp không dùng AI** (template, checklist, script): thế nào là đạt, thế nào là không đạt.
+- **Problem Statement v1**: trường "AI intervention point" ghi "Không có", kèm lý do; "Mức chọn" ghi No AI hoặc Rule; "Rủi ro & người kiểm tra" ghi rủi ro của giải pháp được chọn.
+- **4 rủi ro và quyết định**: vẫn làm đầy đủ, chấm cho giải pháp được chọn.
+
 ### Problem Statement v1
 
 Thêm 3 trường so với v0: AI intervention point, mức chọn, rủi ro và người kiểm tra. Ghi rõ trường nào đổi so với v0 và vì sao.

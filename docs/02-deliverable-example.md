@@ -226,7 +226,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | **Workflow** | Rule lấy số → AI soạn nháp → PM duyệt → gửi | Các bước cố định, AI chỉ làm phần ngôn ngữ | Nháp sai hoặc nhạt | **Chọn** |
 | **Agent** | AI tự tìm nguồn, tự phân tích, tự hỏi thêm, tự gửi | Khi bước tiếp theo không đoán trước được | Quá rộng, nhiều quyền truy cập, khó kiểm soát | Không chọn |
 
-**Vì sao không chọn mức đơn giản hơn:** No AI (template) và Rule (dashboard tự lấy số) đã được kiểm chứng qua phỏng vấn: 2/3 người vẫn mất nhiều thời gian nhất ở phần narrative, đúng phần mà cả hai phương án này không làm được.
+**Vì sao không chọn mức đơn giản hơn:** Phỏng vấn (3 người, mẫu nhỏ) cho thấy 2/3 người vẫn mất nhiều thời gian nhất ở phần narrative, đúng phần mà No AI (template) và Rule (dashboard tự lấy số) không làm được. Người còn lại nói dashboard là đủ, nên với team chỉ cần số, nhóm vẫn khuyến nghị No AI.
 
 **AI Canvas rút gọn:**
 
@@ -260,7 +260,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| Actor | PM nói chung | PM ở team mà leadership đọc narrative | Phỏng vấn: có team chỉ cần số, với họ No AI là đủ |
+| Actor | Junior PM phụ trách báo cáo tuần cho leadership | Thêm: ở team mà leadership đọc phần narrative | Phỏng vấn: có team chỉ cần số, với họ No AI là đủ |
 | Success Metric | Chỉ đo thời gian | Thêm tỉ lệ viết lại và số câu hỏi lại | Phản biện: nhanh hơn nhưng tệ hơn thì không đạt |
 
 **Tiêu chí đánh giá bản nháp:**

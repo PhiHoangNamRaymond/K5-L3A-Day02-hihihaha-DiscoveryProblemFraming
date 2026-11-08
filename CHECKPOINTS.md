@@ -104,7 +104,7 @@ Mỗi checkpoint có template và prompt mẫu tương ứng trong [docs/01-work
 - **Tự kiểm tra:**
   - [ ] Quy trình tương lai có ít nhất 1 bước con người kiểm tra và 1 phương án quay về.
   - [ ] Success Metric có baseline, target và cách đo.
-  - [ ] Boundary ghi rõ AI **không** được làm gì.
+  - [ ] Boundary ghi rõ AI **không** được làm gì và khi nào cần con người kiểm tra (HITL — human-in-the-loop).
 
 ---
 

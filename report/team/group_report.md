@@ -171,7 +171,7 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 | **Bottleneck** | |
 | **Impact** | |
 | **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì) | |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
