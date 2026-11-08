@@ -11,7 +11,7 @@
 ### Repo đề bài
 
 ```text
-K5-L3-DiscoveryProblemFraming
+https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming.git
 ```
 
 ### Repo bài nộp
