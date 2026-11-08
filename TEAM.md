@@ -1,6 +1,6 @@
 # Team
 
-> Nhóm điền chung phần **Thông tin nhóm** và **Thành viên**. Mỗi người tự điền phần của mình trong **Cá nhân**. Khi xong, mỗi thành viên copy file này vào repo cá nhân.
+> Điền file này trên repo chung do nhóm trưởng fork. Nhóm điền phần **Thông tin nhóm** và **Thành viên**. Mỗi người tự điền phần của mình trong **Cá nhân**. Không copy file này sang repo khác.
 
 ## Thông tin nhóm
 
@@ -10,7 +10,7 @@
 
 ## Thành viên
 
-| STT | Họ và tên | MSSV | Vai trò trong nhóm | Repo cá nhân |
+| STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | | | | |
 | 2 | | | | |
