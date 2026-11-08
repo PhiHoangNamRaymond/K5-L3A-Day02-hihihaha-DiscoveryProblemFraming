@@ -268,8 +268,6 @@ Có thể nhờ AI chuyển mô tả sang Mermaid, nhưng **kiểm từng bướ
 
 6 trường: Actor, Quy trình, Bottleneck, Impact, Success Metric, Boundary.
 
-Ở v0, **Boundary** ghi những gì giải pháp (bất kể là gì) không được làm và quyết định nào con người phải giữ, chưa nói tới AI. Sang v1, sau khi chọn mức can thiệp ở CP6, mới viết lại thành "AI không được làm gì".
-
 **Problem Statement không chứa giải pháp.** Nó mô tả đủ rõ để nhiều giải pháp khác nhau có thể được thử.
 
 **Success Metric** cần 3 phần:

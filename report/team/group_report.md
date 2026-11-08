@@ -171,7 +171,7 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 | **Bottleneck** | |
 | **Impact** | |
 | **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (giải pháp không được làm gì; quyết định nào con người phải giữ) | |
+| **Boundary** (AI không được làm gì) | |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
@@ -227,7 +227,7 @@ Vì sao:
 | **Bottleneck** | |
 | **Impact** | |
 | **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì) | |
+| **Boundary** | |
 | **AI intervention point** | |
 | **Mức chọn** | No AI / Rule / Workflow / Agent |
 | **Rủi ro & người kiểm tra** | |

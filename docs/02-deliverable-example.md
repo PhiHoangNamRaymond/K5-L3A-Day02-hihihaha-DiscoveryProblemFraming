@@ -211,7 +211,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | **Bottleneck** | Viết narrative mất khoảng 25 phút vì phải biến dữ liệu thô thành điểm nổi bật, rủi ro, việc tiếp theo |
 | **Impact** | 90 phút/tuần/PM; 3/8 tuần gần nhất gửi trễ; leadership thiếu bối cảnh trước họp |
 | **Success Metric** | Tổng thời gian từ 90' (bấm giờ 2 tuần) xuống dưới 30', đo bằng PM tự ghi giờ 4 tuần pilot |
-| **Boundary** | Báo cáo không được gửi đi khi PM chưa duyệt; không đưa vào nhận định không có nguồn trong dữ liệu |
+| **Boundary** | AI không tự gửi, không bịa nhận định, không thay PM duyệt |
 
 **Phản biện nhận được:** AI chỉ ra metric chỉ đo tốc độ, không đo chất lượng: báo cáo nhanh hơn nhưng tệ hơn thì sao? Nhóm đồng ý và thêm metric chất lượng ở v1.
 
@@ -262,7 +262,6 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 |---|---|---|---|
 | Actor | Junior PM phụ trách báo cáo tuần cho leadership | Thêm: ở team mà leadership đọc phần narrative | Phỏng vấn: có team chỉ cần số, với họ No AI là đủ |
 | Success Metric | Chỉ đo thời gian | Thêm tỉ lệ viết lại và số câu hỏi lại | Phản biện: nhanh hơn nhưng tệ hơn thì không đạt |
-| Boundary | Không gửi khi PM chưa duyệt; không đưa nhận định không có nguồn | AI không tự gửi, không tự sửa số liệu, không đưa nhận định không có trong dữ liệu | Đã chọn Workflow có AI soạn nháp, nên ghi cụ thể AI không được làm gì; thêm "không tự sửa số liệu" vì research cho thấy công cụ AI tính số chưa ổn định |
 
 **Tiêu chí đánh giá bản nháp:**
 
