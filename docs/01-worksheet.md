@@ -268,6 +268,8 @@ Có thể nhờ AI chuyển mô tả sang Mermaid, nhưng **kiểm từng bướ
 
 6 trường: Actor, Quy trình, Bottleneck, Impact, Success Metric, Boundary.
 
+Ở v0, **Boundary** ghi những gì giải pháp (bất kể là gì) không được làm và quyết định nào con người phải giữ, chưa nói tới AI. Sang v1, sau khi chọn mức can thiệp ở CP6, mới viết lại thành "AI không được làm gì".
+
 **Problem Statement không chứa giải pháp.** Nó mô tả đủ rõ để nhiều giải pháp khác nhau có thể được thử.
 
 **Success Metric** cần 3 phần:
@@ -344,6 +346,15 @@ Với AI, "chạy được" chưa đủ. Viết 3–5 tiêu chí xác định đ
 | Không bịa | Mọi nhận định có nguồn trong input | Có nhận định không có trong input |
 
 Nếu không viết được tiêu chí đánh giá, nhóm chưa hiểu đủ "tốt" nghĩa là gì, và đó là dấu hiệu nên chọn **Not Yet**.
+
+### Nếu nhóm chọn No AI hoặc Rule
+
+Đây là kết luận hợp lệ, không bị trừ điểm. Khi đó:
+
+- **AI Canvas** và **2 câu hỏi PAIR**: không cần điền. Thay bằng 2–3 câu giải thích vì sao bài toán không cần AI dự đoán hay tạo nội dung (ví dụ: có đúng/sai rõ, Rule xử lý được phần lớn trường hợp, hoặc kiểm chứng cho thấy người dùng không muốn giao việc).
+- **Tiêu chí đánh giá**: viết 3–5 tiêu chí cho **giải pháp không dùng AI** (template, checklist, script): thế nào là đạt, thế nào là không đạt.
+- **Problem Statement v1**: trường "AI intervention point" ghi "Không có", kèm lý do; "Mức chọn" ghi No AI hoặc Rule; "Rủi ro & người kiểm tra" ghi rủi ro của giải pháp được chọn.
+- **4 rủi ro và quyết định**: vẫn làm đầy đủ, chấm cho giải pháp được chọn.
 
 ### Problem Statement v1
 

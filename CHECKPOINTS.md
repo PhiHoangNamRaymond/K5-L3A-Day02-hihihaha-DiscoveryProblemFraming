@@ -104,7 +104,7 @@ Mỗi checkpoint có template và prompt mẫu tương ứng trong [docs/01-work
 - **Tự kiểm tra:**
   - [ ] Quy trình tương lai có ít nhất 1 bước con người kiểm tra và 1 phương án quay về.
   - [ ] Success Metric có baseline, target và cách đo.
-  - [ ] Boundary ghi rõ AI **không** được làm gì.
+  - [ ] Boundary ghi rõ giải pháp **không** được làm gì và quyết định nào con người phải giữ (chưa cần nhắc tới AI; v1 ở CP6 mới ghi cụ thể AI không được làm gì).
 
 ---
 

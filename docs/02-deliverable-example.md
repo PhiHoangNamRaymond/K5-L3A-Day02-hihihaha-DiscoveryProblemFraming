@@ -211,7 +211,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | **Bottleneck** | Viết narrative mất khoảng 25 phút vì phải biến dữ liệu thô thành điểm nổi bật, rủi ro, việc tiếp theo |
 | **Impact** | 90 phút/tuần/PM; 3/8 tuần gần nhất gửi trễ; leadership thiếu bối cảnh trước họp |
 | **Success Metric** | Tổng thời gian từ 90' (bấm giờ 2 tuần) xuống dưới 30', đo bằng PM tự ghi giờ 4 tuần pilot |
-| **Boundary** | AI không tự gửi, không bịa nhận định, không thay PM duyệt |
+| **Boundary** | Báo cáo không được gửi đi khi PM chưa duyệt; không đưa vào nhận định không có nguồn trong dữ liệu |
 
 **Phản biện nhận được:** AI chỉ ra metric chỉ đo tốc độ, không đo chất lượng: báo cáo nhanh hơn nhưng tệ hơn thì sao? Nhóm đồng ý và thêm metric chất lượng ở v1.
 
@@ -226,7 +226,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | **Workflow** | Rule lấy số → AI soạn nháp → PM duyệt → gửi | Các bước cố định, AI chỉ làm phần ngôn ngữ | Nháp sai hoặc nhạt | **Chọn** |
 | **Agent** | AI tự tìm nguồn, tự phân tích, tự hỏi thêm, tự gửi | Khi bước tiếp theo không đoán trước được | Quá rộng, nhiều quyền truy cập, khó kiểm soát | Không chọn |
 
-**Vì sao không chọn mức đơn giản hơn:** No AI (template) và Rule (dashboard tự lấy số) đã được kiểm chứng qua phỏng vấn: 2/3 người vẫn mất nhiều thời gian nhất ở phần narrative, đúng phần mà cả hai phương án này không làm được.
+**Vì sao không chọn mức đơn giản hơn:** Phỏng vấn (3 người, mẫu nhỏ) cho thấy 2/3 người vẫn mất nhiều thời gian nhất ở phần narrative, đúng phần mà No AI (template) và Rule (dashboard tự lấy số) không làm được. Người còn lại nói dashboard là đủ, nên với team chỉ cần số, nhóm vẫn khuyến nghị No AI.
 
 **AI Canvas rút gọn:**
 
@@ -260,8 +260,9 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| Actor | PM nói chung | PM ở team mà leadership đọc narrative | Phỏng vấn: có team chỉ cần số, với họ No AI là đủ |
+| Actor | Junior PM phụ trách báo cáo tuần cho leadership | Thêm: ở team mà leadership đọc phần narrative | Phỏng vấn: có team chỉ cần số, với họ No AI là đủ |
 | Success Metric | Chỉ đo thời gian | Thêm tỉ lệ viết lại và số câu hỏi lại | Phản biện: nhanh hơn nhưng tệ hơn thì không đạt |
+| Boundary | Không gửi khi PM chưa duyệt; không đưa nhận định không có nguồn | AI không tự gửi, không tự sửa số liệu, không đưa nhận định không có trong dữ liệu | Đã chọn Workflow có AI soạn nháp, nên ghi cụ thể AI không được làm gì; thêm "không tự sửa số liệu" vì research cho thấy công cụ AI tính số chưa ổn định |
 
 **Tiêu chí đánh giá bản nháp:**
 
