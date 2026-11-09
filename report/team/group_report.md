@@ -85,24 +85,35 @@ gian nhất để khoanh phạm vi kiểm chứng.
 
 ### 3.1. Assumption Map
 
-| # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+| # | Giả định | Loại | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | PE khác trong nhà máy (không chỉ Huy) cũng mất ≥60 phút/tuần cho báo cáo tuần | Value | 5 | 2 | ✅ |
+| 2 | Bước tốn thời gian nhất là chép số liệu vào form (50 phút), không phải tra số lượng (20 phút) | Value | 5 | 2 | ✅ |
+| 3 | File số lượng xuất ra từ phần mềm test có cấu trúc cột ổn định giữa các tuần | Feasibility | 4 | 3 | ✅ (kiểm tra file thật của Huy) |
+| 4 | Biểu mẫu báo cáo tuần dùng ô/mục cố định, map được từ cột dữ liệu | Feasibility | 4 | 3 | ✅ |
+| 5 | Nhà máy cho phép chạy công cụ ngoài (Power Query/Python) trên máy và dùng dữ liệu nội bộ | Viability | 5 | 1 | Hỏi sau (quy định IT) |
+| 6 | PE muốn tự kiểm số liệu trước khi nộp nên cần hỗ trợ (augment) hơn là giao hẳn (automate) | Usability | 4 | 2 | ✅ |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm kiểm chứng trong buổi này: **#1, #2, #6** — đều nằm ở ô "quan trọng nhưng ít bằng chứng".
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: **Survey 5–10 người** (đồng nghiệp PE/QA cùng nhà máy và bạn học có lập báo cáo định kỳ).
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+Bộ câu hỏi survey — hỏi **hành vi đã xảy ra**, không hỏi giả định, không có câu dạng "Bạn có muốn…":
+
+1. Công việc của bạn có phải lập báo cáo định kỳ (tuần/tháng) không? (Có / Không)
+2. Lần gần nhất lập báo cáo tuần, bạn mất tổng bao nhiêu phút?
+3. Trong đó bước nào tốn thời gian nhất? (tra/tìm số liệu · chép số liệu vào form · viết nhận xét/action · kiểm tra lại · khác)
+4. Số liệu sản xuất bạn lấy từ đâu? (phần mềm test xuất Excel · MES/hệ thống · hỏi bộ phận khác · khác)
+5. Bạn điền form bằng cách nào? (copy-paste tay · công thức Excel · macro · công cụ khác)
+6. Bạn lập báo cáo bao nhiêu lần mỗi tuần/tháng?
+7. Trong 4 tuần gần nhất, có tuần nào bạn nhập sai số hoặc nộp trễ không? Chuyện gì đã xảy ra?
+8. Bạn từng dùng công cụ nào (Power Query, macro, phần mềm SPC/MES…) để giảm thời gian chưa? Kết quả ra sao?
+
+Kết quả survey: _(chưa thu thập — điền sau khi có phản hồi thật; không bịa số liệu.)_
+
+*Nếu bổ sung phỏng vấn, mỗi buổi ghi một Interview Snapshot theo bảng dưới (hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):*
 
 | Trường | Nội dung |
 |---|---|
@@ -117,17 +128,17 @@ Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Survey (đồng nghiệp PE/QA) | _ | _ | _(bắt buộc ghi ≥1 tín hiệu phản bác, dù nhỏ)_ |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** _(điền sau khi có kết quả — ví dụ nếu đa số nói bước tốn nhất không phải chép số liệu thì phải thu hẹp lại phạm vi)_
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Excel Power Query — connector Folder (gộp nhiều file tự động) | https://learn.microsoft.com/en-us/power-query/connectors/folder | Bước tra/gom số lượng sản xuất (~20 phút): tự đọc mọi file cùng cấu trúc trong một thư mục, Refresh khi có file mới | Có sẵn trong Excel; "Combine & Load/Transform" gộp file không cần code | File nguồn phải cùng định dạng/cấu trúc (sheet/table, header); phần mềm test đổi layout là query lỗi; không tự quyết số liệu thuộc mục nào của form | Dùng tốt cho bước gom số liệu nếu file export ổn định; vẫn cần rule map sang đúng mục + người kiểm |
+| xlwings Reports (template → Excel/PDF) | https://docs.xlwings.org/en/0.24.4/reports.html | Bước điền form báo cáo (~50 phút): ghi DataFrame vào ô/bảng template có sẵn, xuất Excel/PDF | Tách code xử lý và template; người dùng tự sửa layout; hỗ trợ bảng, chart, ảnh, PDF | Tính năng Reports cần xlwings **PRO** (trả phí); cần Python + setup; có thể bị chặn script trên máy văn phòng | Pattern "template + engine điền" đúng hướng, nhưng phải kiểm chi phí/quy định IT; có thể thay bằng Excel-native (Power Query + công thức) |
+| InfinityQS ProFicient (SPC real-time) | https://help.infinityqs.com/help/en/ProFicient/ | Thu thập dữ liệu chất lượng tự động + kho dữ liệu tập trung: thay việc lọc/xếp hạng mã lỗi thủ công (#10) và nhập tay | Kết nối nhiều nguồn nhà máy (OPC, file phẳng, DB…), thu thập tự động, báo cáo/dashboard real-time | Giải pháp cấp nhà máy, chi phí & triển khai lớn; cần tích hợp MES/ERP; quá tầm cho báo cáo tuần của một PE | Thế giới đã có giải pháp mạnh nhưng đắt; phạm vi lab nên chọn mức nhẹ (Rule/Power Query) thay vì mua SPC |
 
 ---
 
