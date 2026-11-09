@@ -147,15 +147,15 @@ HIỆN TẠI — ~70 phút/tuần
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Pitch 3 candidate #10–#12 xuất phát từ trải nghiệm PE tại nhà máy; mô tả quy trình lập báo cáo tuần. | Cả 3 vào bảng pitch của nhóm; #12 vào shortlist và được nhóm chọn (29/35 điểm). |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: "Trong 30 phút chuẩn bị bài Day 1, riêng việc đọc và tổng hợp yêu cầu mất bao lâu nếu tách thời gian tìm hiểu Colab?" (cho candidate #4 của Nam). | [cần bạn xác nhận: bạn khác trả lời/sửa gì] |
-| Nhận phản biện | Câu hỏi tôi nhận được: "Trong lần lập báo cáo tuần gần nhất, phần nào tốn thời gian nhất trong 50 phút điền form: tìm đúng mục, chép số liệu hay kiểm tra lại?" (từ Thành, cho #12). | Tôi đã sửa gì: [cần bạn xác nhận] |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: "Trong 30 phút chuẩn bị bài Day 1, riêng việc đọc và tổng hợp yêu cầu mất bao lâu nếu tách thời gian tìm hiểu Colab?" (cho candidate #4 của Nam). | Câu hỏi được đưa vào bảng pitch CP3 ở ô phản biện của #4 (mục 2.1 báo cáo nhóm), giúp nhóm khoanh lại phạm vi cần đo của #4 thay vì gộp cả 30 phút. |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Trong lần lập báo cáo tuần gần nhất, phần nào tốn thời gian nhất trong 50 phút điền form: tìm đúng mục, chép số liệu hay kiểm tra lại?" (từ Thành, cho #12). | Tôi tách rõ #12 thành hai bước đo riêng: tra số lượng (~20') và điền form (~50'), thay vì gộp chung "lập báo cáo" — đúng như bảng pitch và quy trình CP5 ghi. |
 | Gom cluster / cây OST | Cung cấp mô tả quy trình để nhóm xếp #10–#12 vào cụm A (báo cáo định kỳ của PE/QA). | Cây OST có 1 outcome gốc và 3 nhánh pain, trong đó #12 thuộc nhánh tổng hợp số liệu báo cáo. |
 | Chọn candidate problem | Đưa baseline cho #12: ~20 phút tra số lượng + ~50 phút điền biểu mẫu. | Nhóm chọn #12 làm candidate problem. |
 | Kiểm chứng / research | Phụ trách CP4: chạy 5 survey + 2 phỏng vấn (QA, PM) và lập bảng research 3 nguồn có link. | Kiểm chứng xác nhận pain ở bước chép số liệu vào form; phỏng vấn PM cho thấy hệ quả tới khách hàng. |
-| Quy trình nhóm | [cần bạn xác nhận] | |
-| Problem Statement | [cần bạn xác nhận] | |
-| Mức can thiệp AI | [cần bạn xác nhận] | |
-| Quyết định | [cần bạn xác nhận] | |
+| Quy trình nhóm (CP5) | Cung cấp quy trình weekly report thật (2 bước: tra số lượng ~20' + điền form ~50') để nhóm vẽ before/after. | Bảng 4.1 và 4.3 dùng đúng baseline này; bước điền biểu mẫu (50') được xác định là bottleneck. |
+| Problem Statement (CP5) | Cho số liệu để nhóm viết Problem Statement v0: actor là PE phụ trách weekly report của line; bottleneck là điền/copy số liệu vào form. | Actor, bottleneck và impact của PS v0 (70 phút/tuần) lấy từ trải nghiệm thật của tôi; nhóm ghi rõ baseline cần đo lại bằng bấm giờ. |
+| Mức can thiệp AI (CP6) | Góp ý bước tra/copy số liệu chỉ cần Rule (Power Query + công thức Excel), chưa cần AI; giữ PE đối chiếu (HITL). | Định hướng quy trình tương lai (4.2) chọn Rule/Power Query thay vì AI; AI không được tự tạo/sửa số liệu hay tự gửi báo cáo. |
+| Quyết định (CP6) | Góp ý ngưỡng dừng dựa trên kinh nghiệm: nếu mapping sai hoặc file nguồn đổi cấu trúc thì dừng tự động, quay về điền tay. | Nhóm đưa "phương án quay về" và điều kiện HITL vào quy trình tương lai; phần quyết định Go / Not Yet / No-Go còn chờ nhóm chốt. |
 
 ---
 
@@ -163,12 +163,12 @@ HIỆN TẠI — ~70 phút/tuần
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Nhờ AI gợi ý thêm lăng kính và cách diễn đạt 8 Job Story. | Giúp chuẩn hoá câu chữ và gợi ý thêm các tình huống về mã lỗi mới, tổ test/QA hỏi lại, copy dữ liệu vào form, viết nhận định. | AI đề xuất thêm dòng nhưng chưa có số đo thật (dòng 6 và 8 thiếu con số). | Giữ dòng 5–8 vì đúng trải nghiệm nhà máy, nhưng ghi rõ dòng 6 và 8 phải bổ sung số thật, không lấy số AI bịa. |
+| CP2 Problem Card | Nhờ AI phản biện 3 Problem Card. | Chỉ ra Card #1 có thể giải ~80% bằng pivot table/COUNTIF; actor "PE" quá chung; bottleneck chưa chắc nằm ở bước lọc. | AI ban đầu vẫn nghiêng về hướng dùng AI cho việc copy-paste (solution-first). | Thu hẹp actor thành "PE phụ trách weekly report của line"; ghi phương án No AI/Rule trước; hạ cảm nhận nhanh của Card #3 xuống Rule. |
+| CP4 Research | Nhờ AI tìm giải pháp đã có cho phần gom số liệu và điền form. | Gợi ý nhanh 3 nguồn có link (Power Query, xlwings Reports, InfinityQS) và chỉ ra khoảng trống của từng cái. | Nguồn quá tầm: InfinityQS là giải pháp cấp nhà máy; xlwings Reports cần bản PRO trả phí — không hợp bối cảnh. | Chỉ giữ Power Query làm hướng chính vì có sẵn trong Excel; loại phương án mua SPC. |
+| CP5 Quy trình | Nhờ AI đối chiếu quy trình trước/sau và cách đặt boundary. | Giúp tách bước, viết BOUNDARY và "phương án quay về" rõ ràng. | AI có xu hướng vẽ thêm bước không có thật trong quy trình của tôi. | Đối chiếu lại với quy trình thật (chỉ 2 bước hiện tại) trước khi chốt; không thêm bước ngoài thực tế. |
+| CP5–6 Problem Statement | Nhờ AI góp ý success metric và cách đo. | Giúp đặt metric có cách đo và theo dõi cả số lần sửa/lỗi. | AI có xu hướng đưa target không có cơ sở. | Giữ baseline 70 phút là ước tính tự báo cáo và ghi rõ phải đo lại bằng bấm giờ. |
+| CP6 Mức can thiệp / quyết định | Đối chiếu 4 mức No AI / Rule / Workflow / Agent cho bài của nhóm. | Giúp lập luận vì sao chọn Rule thay vì AI. | AI có xu hướng đẩy lên Workflow/Agent dù việc chính chỉ là copy số liệu. | Hạ về Rule (Power Query + công thức) và giữ PE kiểm tra (HITL) trước khi dùng. |
 
 ---
 
@@ -178,15 +178,27 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+*(Gợi ý: nêu 1 problem của bạn khác khiến bạn nhận ra điều gì về cách mình hay bỏ qua — ví dụ #7 của Thành về "hỏi lại sau họp" hoặc #4 của Nam về "gộp cả 30 phút".)*
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+*(Gợi ý: nhớ lại lúc gạch bỏ "Form Excel dùng công thức tra cứu" khỏi tầng opportunity ở CP3 (mục 2.3) — đó là một ví dụ solution đội lốt opportunity. Hoặc chuyện AI/học viên gợi ý "AI agent quản lý dữ liệu" ngay khi vừa nghe pain.)*
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+*(Gợi ý: dùng câu hỏi của Thành về 50 phút điền form, hoặc lần AI chỉ ra Card #1 có thể giải ~80% bằng pivot/COUNTIF và bạn phải hạ kỳ vọng AI xuống Rule. Nêu rõ trước→sau.)*
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+*(Gợi ý: 5 survey đều 140–210 phút, cao hơn nhiều so với baseline 70 phút bạn tự ước tính; hoặc phỏng vấn PM cho thấy sai số liệu từng khiến khách hàng phàn nàn — hệ quả vượt ra ngoài phạm vi bạn nghĩ ban đầu.)*
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+*(Gợi ý: khó nhất là chọn baseline/metric đo được (70 phút chỉ là ước tính) và tách rõ boundary "AI không được làm gì" khỏi "no AI thì làm gì".)*
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+*(Gợi ý: ví dụ bấm giờ thật ngay từ CP3 thay vì ước tính; hoặc phản biện mạnh hơn khi nhóm gộp nhiều bước vào một con số thời gian.)*
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
