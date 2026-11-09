@@ -178,27 +178,15 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-*(Gợi ý: nêu 1 problem của bạn khác khiến bạn nhận ra điều gì về cách mình hay bỏ qua — ví dụ #7 của Thành về "hỏi lại sau họp" hoặc #4 của Nam về "gộp cả 30 phút".)*
-
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
-*(Gợi ý: nhớ lại lúc gạch bỏ "Form Excel dùng công thức tra cứu" khỏi tầng opportunity ở CP3 (mục 2.3) — đó là một ví dụ solution đội lốt opportunity. Hoặc chuyện AI/học viên gợi ý "AI agent quản lý dữ liệu" ngay khi vừa nghe pain.)*
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-*(Gợi ý: dùng câu hỏi của Thành về 50 phút điền form, hoặc lần AI chỉ ra Card #1 có thể giải ~80% bằng pivot/COUNTIF và bạn phải hạ kỳ vọng AI xuống Rule. Nêu rõ trước→sau.)*
-
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
-*(Gợi ý: 5 survey đều 140–210 phút, cao hơn nhiều so với baseline 70 phút bạn tự ước tính; hoặc phỏng vấn PM cho thấy sai số liệu từng khiến khách hàng phàn nàn — hệ quả vượt ra ngoài phạm vi bạn nghĩ ban đầu.)*
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-*(Gợi ý: khó nhất là chọn baseline/metric đo được (70 phút chỉ là ước tính) và tách rõ boundary "AI không được làm gì" khỏi "no AI thì làm gì".)*
-
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
-*(Gợi ý: ví dụ bấm giờ thật ngay từ CP3 thay vì ước tính; hoặc phản biện mạnh hơn khi nhóm gộp nhiều bước vào một con số thời gian.)*
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
