@@ -128,22 +128,25 @@ Phản hồi #1 — vai trò: người lập báo cáo định kỳ (không ghi 
 
 *Nếu bổ sung phỏng vấn, mỗi buổi ghi một Interview Snapshot theo bảng dưới (hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):*
 
+Interview Snapshot #1:
+
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | QA |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Mất thời gian khi phải tổng hợp những thông tin có sẵn." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Bị sai thông số nên số liệu không khớp |
+| Hiện đang xử lý bằng cách nào (workaround)? | Phải rà soát lại số liệu |
+| Mất bao lâu, bao lần? | Khoảng 60 phút để kiểm tra |
+| Insight / opportunity rút ra | Pain nằm ở bước tổng hợp/đối chiếu thông tin có sẵn và rà soát lại khi số liệu lệch. Người được hỏi tự đề xuất "AI agent quản lý dữ liệu" — đây là **solution**, không đưa vào tầng opportunity. |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
 | Survey (đồng nghiệp PE/QA) | 1 | 1/1 nói bước tốn thời gian nhất là chép số liệu vào form; 1/1 lấy dữ liệu từ hệ thống test và điền form thủ công bằng Excel; 1/1 chưa dùng công cụ hỗ trợ; 1/1 từng nhập sai số | Chưa có phản bác (n=1). Ghi chú: tổng thời gian 170 phút cao hơn baseline 70 phút của #12 → cần đối chiếu phạm vi báo cáo |
+| Phỏng vấn (QA) | 1 | 1/1 mất ~60 phút rà soát lại vì sai thông số làm số liệu không khớp; nói mất thời gian khi tổng hợp thông tin đã có sẵn | Chưa có phản bác |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** Chờ đủ mẫu. Tín hiệu sơ bộ: giả định #2 (chép số liệu vào form là bước tốn nhất) khớp với 1/1 phản hồi; cần thêm phản hồi để chốt lại baseline thời gian (170 so với 70 phút).
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Tín hiệu sơ bộ (1 survey + 1 phỏng vấn) đều xác nhận pain nằm ở bước tổng hợp/đối chiếu số liệu (chép vào form, rà soát lại khi lệch). Chưa ghi nhận tín hiệu phản bác; cần thêm mẫu để chốt baseline thời gian (170 so với 70 phút).
 
 ### 3.3. Research giải pháp đã có
 
