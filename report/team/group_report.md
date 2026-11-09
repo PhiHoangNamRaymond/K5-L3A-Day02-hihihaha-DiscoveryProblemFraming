@@ -5,7 +5,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: PhiHoangNam2A202603435
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu):
 - Quyết định cuối: Go / Not Yet / No-Go
@@ -18,18 +18,18 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Nguyen Tien Dat | Import Excel sổ quỹ: Khi làm task import Excel cho sổ quỹ tiền mặt, tôi muốn xác định đúng dữ liệu và cột ngay từ đầu, để không phải sửa lại file sau khi test | Thực tập sinh dev (MobifoneIT), mentor, BA | Map cột Excel (~40 phút/lần) | |
+| 2 | Nguyen Tien Dat | Vẽ diagram đồ án: Khi vẽ diagram cho bài tập/đồ án, tôi muốn ra đúng cấu trúc ngay bản đầu, để không phải sửa nhiều vòng theo feedback | Sinh viên năm cuối, bạn cùng nhóm | Sửa diagram theo feedback (~20–25 phút/lần, 2 vòng) | |
+| 3 | Nguyen Tien Dat | Đọc hiểu task Jira: Khi nhận task mới trên Jira, tôi muốn hiểu đúng yêu cầu và tài liệu liên quan trong một lần đọc, để không làm sai hướng rồi phải hỏi lại mentor | Thực tập sinh dev, mentor, BA | Đọc tài liệu nội bộ + đối chiếu (~35 phút/lần) | |
+| 4 | Phí Hoàng Nam | Tổng hợp đầu việc lab. Khi nhận bài lab, tôi muốn xác định các đầu việc, thứ tự thực hiện và yêu cầu nộp để bắt đầu làm mà không bỏ sót phần bắt buộc. | Học viên làm bài lab | Đọc checkpoint và tổng hợp yêu cầu từ nhiều tệp Markdown (ước tính 15 phút, cần đo lại). | |
+| 5 | Phí Hoàng Nam | Tìm link Phoenix. Khi chuẩn bị gửi stand-up buổi sáng, tôi muốn tìm được link Phoenix để gửi bài trước 10 giờ và nhận XP. | Học viên cần gửi stand-up | Tìm lại tin nhắn chứa link Phoenix (khoảng 2 phút ở lần gần nhất). | |
+| 6 | Phí Hoàng Nam | Theo dõi thông báo trên Outlook và Discord. Khi kiểm tra thông báo của chương trình, tôi muốn nhận ra những thông tin có việc cần làm để không bỏ lỡ yêu cầu hoặc thời hạn. | Học viên theo dõi thông báo của chương trình | Xác định thông báo nào có việc cần làm (ước tính 7 phút, cần kiểm tra xem có phải bước dẫn đến bỏ sót hay không). | |
+| 7 | Nguyễn Bá Thành | Sau họp nhóm, tôi muốn rõ việc, người phụ trách và hạn để không phải hỏi lại. | Thành viên nhóm; nhóm trưởng | Hỏi lại thông tin sau họp: 5 lần từ 3 thành viên; chưa rõ thuộc bao nhiêu buổi. |  |
+| 8 | Nguyễn Bá Thành | Sau mỗi buổi LEC, tôi muốn tìm đủ link học tập để tiếp tục làm bài. | Học viên | Tìm lại link bài giảng, GitHub và nộp bài: khoảng 10 phút/buổi. |  |
+| 9 | Nguyễn Bá Thành | Đầu ngày, tôi muốn nắm lịch và việc cần làm để chủ động sắp xếp. | Học viên; thành viên nhóm | Tổng hợp lịch học, việc nhóm, workshop/Office Hours: khoảng 10 phút/ngày. | |
+| 10 | Nguyễn Văn Huy | Khi chuẩn bị weekly report, tôi muốn xác định 3 mã lỗi test xuất hiện nhiều nhất trong tuần, để tập trung báo cáo các lỗi chính | PE tại nhà máy sản xuất mạch điện tử | Tải file Excel từ phần mềm test và lọc, xếp hạng mã lỗi mất khoảng 60 phút mỗi tuần | |
+| 11 | Nguyễn Văn Huy | Khi viết weekly report, tôi muốn xác định action phù hợp cho từng mã lỗi cũ và mới theo từng sản phẩm, để báo cáo có hướng xử lý rõ ràng | PE tại nhà máy sản xuất mạch điện tử | Viết action cho lỗi cũ mất khoảng 20 phút và lỗi mới khoảng 30 phút mỗi tuần | |
+| 12 | Nguyễn Văn Huy | Khi tổng hợp weekly report, tôi muốn tra cứu số lượng sản xuất của tuần trước và đưa dữ liệu vào đúng mục, để báo cáo đầy đủ và hạn chế nhập sai | PE tại nhà máy sản xuất mạch điện tử | Tra số lượng mất khoảng 20 phút và copy-paste dữ liệu vào form báo cáo mất khoảng 50 phút mỗi tuần | |
 
 ### 2.2. Cluster
 
