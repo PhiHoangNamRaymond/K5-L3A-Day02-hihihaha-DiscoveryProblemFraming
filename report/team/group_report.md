@@ -146,39 +146,53 @@ Tổng hợp:
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Tần suất: mỗi tuần, khi PE lập báo cáo tuần. Mốc thời gian dưới đây là ước tính Huy nêu ở CP3, chưa được bấm giờ độc lập.
 
 ```text
-
+[PE] Tra số lượng sản xuất tuần trước từ dữ liệu nguồn (20')
+  Input: dữ liệu sản xuất của tuần trước
+  Output: số lượng cần đưa vào báo cáo
+  → [PE] Mở biểu mẫu báo cáo và copy-paste số liệu vào đúng mục (50')
+      Input: số lượng đã tra + biểu mẫu báo cáo tuần
+      Output: biểu mẫu có số liệu sản xuất
 ```
 
-| Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
+| Bước | Actor | Input | Output | Thời gian / tần suất | Handoff |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1. Tra số lượng sản xuất tuần trước | PE | Dữ liệu sản xuất của tuần trước | Số lượng sản xuất cần báo cáo | Khoảng 20 phút / tuần (ước tính Huy, CP3) | PE chuyển số liệu sang bước điền biểu mẫu |
+| 2. Điền số liệu vào đúng mục | PE | Số lượng đã tra và biểu mẫu báo cáo tuần | Biểu mẫu có số liệu sản xuất | Khoảng 50 phút / tuần (ước tính Huy, CP3) | PE hoàn thiện biểu mẫu để tiếp tục quy trình báo cáo hiện có |
 
-**Bottleneck chính:**
+**Bottleneck chính:** Bước 2 — copy-paste số liệu vào đúng mục của biểu mẫu, khoảng 50 phút mỗi tuần theo ước tính của Huy. Chưa có log bấm giờ hoặc dữ liệu kiểm chứng độc lập; cần xác nhận trong pilot.
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+Đề xuất thử trước bằng quy tắc/Excel (Power Query và biểu mẫu), không cần AI để tra hay tính số liệu. Thời gian từng bước là mục tiêu giả thuyết để kiểm tra, không phải kết quả đã đo.
 
 ```text
+[PE] Đưa file nguồn đúng kỳ vào thư mục đã thống nhất (3')       ← CON NGƯỜI
+  → [Power Query / rule] Refresh và gom số lượng (5')            ← RULE
+  → [Rule / biểu mẫu] Ánh xạ số lượng vào các mục báo cáo (5')    ← RULE
+  → [PE] Đối chiếu số trong biểu mẫu với nguồn và sửa nếu cần (12') ← CON NGƯỜI / HITL
+  → [PE] Hoàn tất và gửi theo quy trình hiện tại (5')              ← CON NGƯỜI
 
+BOUNDARY: Rule chỉ đọc file nguồn đã chọn và điền theo mapping đã xác nhận;
+không tự suy đoán số thiếu, không ghi đè dữ liệu nguồn, không tự gửi báo cáo.
+Nếu sau này thêm AI, AI không được tự tạo/sửa số liệu hay tự gửi; PE phải đối chiếu
+mọi số liệu với nguồn trước khi đầu ra được dùng.
+PHƯƠNG ÁN QUAY VỀ: Nếu file đổi cấu trúc, mapping sai hoặc kết quả không khớp,
+dừng dùng kết quả tự động; PE tra và điền thủ công theo quy trình hiện tại,
+đồng thời ghi nhận lỗi để sửa mapping trước lần chạy sau.
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 2 | 5 | Tương lai tách riêng nạp file, gom số, ánh xạ, kiểm tra và gửi |
+| Tổng thời gian | Khoảng 70 phút / tuần | Mục tiêu khoảng 30 phút / tuần | Baseline = 20' + 50' theo ước tính ở CP3; thời gian tương lai là giả thuyết cần pilot |
+| Số bước thủ công | 2/2 | 3/5 | PE nạp file, kiểm tra kết quả và gửi; 2 bước xử lý bằng rule |
+| Bottleneck chính | Điền biểu mẫu (khoảng 50') | Đối chiếu số liệu (mục tiêu 12') | Dành thời gian cho kiểm soát chất lượng; phải đo lại khi pilot |
+| Rủi ro mới phát sinh | — | File đổi cấu trúc hoặc mapping sai làm điền nhầm mục/số | Đối chiếu với file nguồn; dừng và quay về quy trình thủ công nếu không khớp |
 
 ---
 
@@ -186,16 +200,17 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | PE tại nhà máy sản xuất mạch điện tử, phụ trách tổng hợp số lượng sản xuất vào báo cáo tuần. |
+| **Quy trình** | Mỗi tuần, PE tra số lượng sản xuất của tuần trước từ dữ liệu nguồn rồi điền số liệu vào đúng mục trong biểu mẫu báo cáo. |
+| **Bottleneck** | Điền/copy-paste số liệu vào đúng mục của biểu mẫu, ước tính khoảng 50 phút mỗi tuần theo thông tin Huy nêu ở CP3; chưa được bấm giờ độc lập. |
+| **Impact** | Quy trình tra và điền số liệu chiếm khoảng 70 phút mỗi tuần theo ước tính ban đầu (20 phút tra + 50 phút điền). Nếu sai số hoặc điền nhầm mục, báo cáo có thể không chính xác; mức độ và tần suất lỗi chưa được xác minh. |
+| **Success Metric** (baseline → target, cách đo) | Baseline tạm tính khoảng 70 phút/tuần (ước tính CP3) → mục tiêu không quá 30 phút/tuần. Trong 4 tuần lập báo cáo, PE bấm giờ từ lúc bắt đầu tra dữ liệu đến khi hoàn tất phần số liệu; ghi riêng thời gian từng bước, số lần sửa và số mục sai/thiếu khi đối chiếu với nguồn. Chỉ đạt mục tiêu nếu giảm thời gian mà không tăng lỗi; xác nhận baseline bằng lần đo đầu tiên. |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | CP5 chưa đề xuất dùng AI để xử lý số liệu. Rule chỉ gom và ánh xạ dữ liệu theo nguồn/mapping đã xác nhận; không suy đoán hoặc sửa số liệu nguồn, không tự gửi báo cáo. PE phải đối chiếu số và mục trong biểu mẫu với nguồn trước khi hoàn tất. Nếu sau này dùng AI, AI không được tự tạo/sửa số liệu hay tự gửi; đầu ra phải được PE kiểm tra. |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- Phản biện: Baseline khoảng 70 phút hiện là ước tính tự báo cáo, chưa phải số đo; target thời gian đơn lẻ có thể khuyến khích điền nhanh nhưng kém chính xác. Cần đo baseline bằng bấm giờ và theo dõi lỗi/sửa trong pilot.
+- Trạng thái: Đã đưa cách đo và kiểm tra lỗi vào Success Metric v0; nhóm cần xác nhận/điều chỉnh sau khi có số liệu pilot. Chưa ghi nhận phản biện từ nhóm khác.
 
 ---
 
