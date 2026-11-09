@@ -76,3 +76,23 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm**
 
 - Số liệu ước tính chưa đủ để kết luận; cần đo lại thời gian và kiểm lỗi trước khi đánh giá quy trình mới.
+
+### NguyenVanHuy-2A202603432
+
+**Phần việc phụ trách**
+
+- Đề xuất #10–#12; cung cấp mô tả quy trình báo cáo tuần; phụ trách CP4 (kiểm chứng + research).
+
+**Đóng góp cụ thể**
+
+- Pitch 3 candidate #10–#12 và cung cấp baseline cho #12 (~20 phút tra số lượng + ~50 phút điền biểu mẫu).
+- Phụ trách CP4: chạy 5 survey + 2 phỏng vấn (QA, PM), lập assumption map và bảng research 3 nguồn có link.
+
+**Bằng chứng**
+
+- [Mục 2 — CP3: pitch và shortlist](report/team/group_report.md#2-hội-tụ-nhóm-cp3).
+- [Mục 3 — CP4: kiểm chứng + research](report/team/group_report.md#3-kiểm-chứng--research-giải-pháp-đã-có-cp4).
+
+**Điều mình học được từ phần nhóm**
+
+- Kiểm chứng bằng số liệu thật quan trọng hơn suy đoán: 5 phản hồi đều chỉ vào bước chép số liệu vào form, còn thời gian thực tế (140–210 phút) cao hơn nhiều so với con số ước tính 70 phút ban đầu, nên baseline phải đo lại.
