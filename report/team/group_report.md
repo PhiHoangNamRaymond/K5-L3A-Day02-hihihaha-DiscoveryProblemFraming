@@ -111,7 +111,20 @@ Bộ câu hỏi survey — hỏi **hành vi đã xảy ra**, không hỏi giả 
 7. Trong 4 tuần gần nhất, có tuần nào bạn nhập sai số hoặc nộp trễ không? Chuyện gì đã xảy ra?
 8. Bạn từng dùng công cụ nào (Power Query, macro, phần mềm SPC/MES…) để giảm thời gian chưa? Kết quả ra sao?
 
-Kết quả survey: _(chưa thu thập — điền sau khi có phản hồi thật; không bịa số liệu.)_
+Kết quả survey (hiện có **1 phản hồi**; cần thêm 4–9 để đủ mốc 5–10 người):
+
+Phản hồi #1 — vai trò: người lập báo cáo định kỳ (không ghi tên thật):
+
+| Câu hỏi | Trả lời |
+|---|---|
+| 1. Có lập báo cáo định kỳ? | Có |
+| 2. Lần gần nhất mất bao lâu? | 170 phút |
+| 3. Bước tốn thời gian nhất? | Chép số liệu vào form |
+| 4. Số liệu lấy từ đâu? | Hệ thống test |
+| 5. Điền form bằng cách nào? | Excel |
+| 6. Tần suất lập báo cáo? | 4 lần/tháng |
+| 7. 4 tuần gần nhất có sai/trễ không? | 1 lần nhập sai, 0 lần trễ |
+| 8. Đã dùng công cụ nào để giảm thời gian? | Chưa dùng |
 
 *Nếu bổ sung phỏng vấn, mỗi buổi ghi một Interview Snapshot theo bảng dưới (hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):*
 
@@ -128,9 +141,9 @@ Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Survey (đồng nghiệp PE/QA) | _ | _ | _(bắt buộc ghi ≥1 tín hiệu phản bác, dù nhỏ)_ |
+| Survey (đồng nghiệp PE/QA) | 1 | 1/1 nói bước tốn thời gian nhất là chép số liệu vào form; 1/1 lấy dữ liệu từ hệ thống test và điền form thủ công bằng Excel; 1/1 chưa dùng công cụ hỗ trợ; 1/1 từng nhập sai số | Chưa có phản bác (n=1). Ghi chú: tổng thời gian 170 phút cao hơn baseline 70 phút của #12 → cần đối chiếu phạm vi báo cáo |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** _(điền sau khi có kết quả — ví dụ nếu đa số nói bước tốn nhất không phải chép số liệu thì phải thu hẹp lại phạm vi)_
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Chờ đủ mẫu. Tín hiệu sơ bộ: giả định #2 (chép số liệu vào form là bước tốn nhất) khớp với 1/1 phản hồi; cần thêm phản hồi để chốt lại baseline thời gian (170 so với 70 phút).
 
 ### 3.3. Research giải pháp đã có
 
