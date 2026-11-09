@@ -133,16 +133,16 @@ Các dấu hiệu và thời lượng ở trên dựa trên CP1 của tôi; targ
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Tôi trình bày card #7 về việc thành viên phải hỏi lại đầu việc, người phụ trách và hạn sau họp nhóm. Dữ liệu ban đầu của tôi là 3 thành viên đã hỏi nhóm trưởng 5 lần; lúc pitch, tôi cũng nêu rõ chưa biết các lần đó thuộc bao nhiêu buổi họp. | Nhóm có thêm một candidate thuộc pain “làm rõ đầu việc và trách nhiệm”, đồng thời nhận ra cần kiểm tra phạm vi của con số 5 lần trước khi dùng làm baseline. |
+| Phản biện bài của bạn khác | Tôi hỏi pitch #1 của Nguyễn Tiến Đạt về điều khiến việc map cột Excel mất thời gian; pitch #5 của Phí Hoàng Nam về nơi tìm link Phoenix và thời gian tìm; pitch #10 của Nguyễn Văn Huy về bước tốn thời gian nhất trong 60 phút lọc, xếp hạng mã lỗi. | Các câu hỏi hướng người pitch về một lần trải nghiệm cụ thể và bottleneck, thay vì bàn ngay về giải pháp. |
+| Nhận phản biện | Nguyễn Tiến Đạt hỏi về card của tôi: “Năm lượt hỏi lại xảy ra trong bao nhiêu buổi họp, và mọi người thường phải hỏi lại thông tin gì?” | Câu hỏi giúp tôi nhận ra dữ liệu ban đầu chưa có mẫu số theo số buổi và chưa phân loại nội dung bị hỏi lại. Tôi ghi đây là điểm cần xác minh, không kết luận rằng 5 lần xảy ra trong một buổi hay gây trễ công việc. |
+| Gom cluster / cây OST | Tôi cùng nhóm sắp xếp các candidate theo pain chung: xử lý dữ liệu và hoàn thiện báo cáo; làm rõ yêu cầu và đầu việc; tìm và theo dõi thông tin. Khi thảo luận cây OST, tôi tập trung phân biệt pain của người dùng với cách giải quyết cụ thể, chẳng hạn công thức Excel là giải pháp chứ không phải opportunity. | Card của tôi được xếp vào cluster “Làm rõ yêu cầu và đầu việc”; cây OST giữ các nhánh ở dạng nhu cầu/pain thay vì liệt kê công cụ. |
+| Chọn candidate problem | Tôi cùng nhóm xem xét shortlist và chấm điểm ba candidate #12, #8 và #7. Tôi trao đổi về độ rõ của quy trình và khả năng đo pain: candidate #7 có 5 lượt hỏi lại nhưng chưa rõ số buổi và thời gian phát sinh; candidate #8 gộp nhiều loại link trong con số 10 phút; candidate #12 có hai bước và ước tính thời gian riêng cho từng bước. | Nhóm chọn #12 với 29/35 điểm; #8 đạt 28 và #7 đạt 27. Việc so sánh giúp nhóm chọn vấn đề có thể đo từng bước rõ hơn, dù các mốc thời gian vẫn cần kiểm chứng. |
+| Kiểm chứng / research | Tôi cùng nhóm xem xét giả định cần kiểm chứng, phản hồi survey hiện có và các giải pháp Power Query, xlwings Reports, InfinityQS ProFicient. Tôi lưu ý một phản hồi survey chưa đủ để đại diện cho nhiều PE; thời gian 170 phút trong phản hồi cũng khác đáng kể ước tính 70 phút của candidate #12. | Nhóm ghi rõ survey mới có 1 phản hồi, chưa đủ mẫu; kết quả chỉ là tín hiệu ban đầu. Phần research cho thấy có thể cân nhắc công cụ sẵn có, nhưng còn phụ thuộc cấu trúc file, chi phí và quy định IT. |
+| Quy trình nhóm | Tôi tham gia CP5 và hoàn thiện phần quy trình trước/sau cho báo cáo tuần. Tôi tách quy trình hiện tại thành bước tra số lượng (ước tính 20 phút/tuần) và bước điền vào form (ước tính 50 phút/tuần); ở quy trình tương lai, tôi mô tả nạp file, dùng Power Query/rule để gom và ánh xạ số liệu, PE đối chiếu, rồi gửi. Tôi cũng ghi rõ boundary và cách quay về thao tác thủ công nếu file hoặc mapping sai. | Báo cáo thể hiện baseline ước tính khoảng 70 phút/tuần và mục tiêu thử nghiệm khoảng 30 phút/tuần. Tôi ghi rõ thời gian sau là giả thuyết cần pilot, không phải kết quả đã đo; PE vẫn kiểm tra số liệu trước khi dùng. |
+| Problem Statement | Tôi cùng nhóm viết Problem Statement v0 cho PE lập báo cáo tuần, nêu actor, quy trình, bottleneck, impact, metric và boundary. Tôi bổ sung cách đo trong pilot: bấm giờ trong 4 tuần, ghi thời gian từng bước và theo dõi số lần sửa/số mục sai hoặc thiếu. | Metric không chỉ nhắm giảm thời gian mà còn yêu cầu không tăng lỗi. Tôi cũng ghi rõ baseline 70 phút hiện là ước tính cần xác nhận bằng lần đo đầu tiên. |
+| Mức can thiệp AI | Dựa trên quy trình CP5, tôi cùng nhóm cân nhắc hướng dùng rule/Excel cho việc gom và ánh xạ số liệu thay vì mặc định cần AI; con người vẫn đối chiếu kết quả. | Hướng đề xuất trong CP5 là thử rule/Power Query trước và không dùng AI để suy đoán hay sửa số liệu. Phần so sánh mức can thiệp và quyết định chính thức ở CP6 chưa được điền trong báo cáo nhóm. |
+| Quyết định | Tôi tham gia thảo luận lựa chọn candidate #12 ở CP3. Với quyết định cuối CP6, tôi chưa thể ghi một lựa chọn Go / Not Yet / No-Go vì báo cáo nhóm được cung cấp chưa có kết luận này. | Nhóm đã chọn candidate để tiếp tục làm bài; điều đó không đồng nghĩa đã có quyết định Go cho một pilot hay giải pháp, vì phần kết luận CP6 còn để trống. |
 
 ---
 
@@ -150,35 +150,45 @@ Các dấu hiệu và thời lượng ở trên dựa trên CP1 của tôi; targ
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Tôi dùng prompt gợi ý problem sau khi tự scan. AI gợi ý thêm problem về kiểm tra yêu cầu và tên file trước khi nộp lab (#5); tôi cũng hỏi AI về ý “trợ lý AI quản lý chi tiêu hàng tháng”. | Gợi ý #5 giúp tôi nghĩ thêm một tình huống gần với việc học và nộp lab. | Ý trợ lý quản lý chi tiêu quá rộng, chưa gắn với một quy trình hay dấu hiệu thực tế của tôi. | Tôi giữ ý #5 vì có liên hệ với trải nghiệm đọc README; bỏ ý quản lý chi tiêu vì không đủ cụ thể. |
+| CP2 Problem Card | Tôi dùng prompt PM hoài nghi trong worksheet để nhờ AI rà các card và bottleneck. | AI giúp tôi nhìn ra card #7 có dữ liệu ban đầu nhưng chưa đủ để kết luận mức độ ảnh hưởng. | 5 lượt hỏi lại chưa rõ thuộc bao nhiêu buổi; chưa đo thời gian hỏi lại và chưa ghi nhận trường hợp trễ hay bỏ sót việc. | Tôi bổ sung các giới hạn này, ghi target không quá 1 lần/buổi là mục tiêu thử nghiệm và nêu rõ cần đo lại, không xem target là kết quả. |
+| CP3 Pitch / phản biện | Tôi dùng prompt để chuẩn bị câu hỏi cho pitch #1, #5 và #10, tập trung vào lần gần nhất và bước tốn thời gian. | Câu hỏi giúp buổi pitch đi vào bottleneck cụ thể thay vì đề xuất giải pháp quá sớm. | Câu trả lời thực tế sau pitch chưa được ghi trong báo cáo, nên câu hỏi chưa thể xem là bằng chứng kiểm chứng. | Tôi giữ câu hỏi ngắn, hỏi về việc đã xảy ra và không tự điền câu trả lời thay người pitch. |
+| CP4 Research | Tôi dùng các prompt mẫu về research giải pháp có sẵn để hỗ trợ nhóm so sánh công cụ với các bước trong quy trình. | Khung so sánh giúp nhóm ghi rõ công cụ giải bước nào và còn hạn chế gì; ví dụ Power Query cần file có cấu trúc ổn định. | AI có thể gợi ý claim hoặc nguồn chưa được xác minh; bản thân bảng research cũng chưa chứng minh rằng công cụ phù hợp với môi trường nhà máy của nhóm. | Tôi giữ các giới hạn và điều kiện áp dụng trong bảng, không xem gợi ý AI là xác nhận; các nguồn được liệt kê ở mục 7. |
+| CP5 Quy trình | Tôi dùng prompt mẫu để phân rã quy trình hiện tại/tương lai, xác định bottleneck, vai trò Rule và điểm PE cần kiểm tra. | AI giúp sắp xếp các bước và rà xem đã có boundary, handoff và phương án quay về chưa. | Mốc tương lai khoảng 30 phút chưa được đo; đây chỉ là mục tiêu, không phải kết quả đã đạt. | Tôi giữ 20 phút tra + 50 phút điền là ước tính ban đầu, ghi 30 phút là giả thuyết pilot và thêm bước PE đối chiếu số liệu. |
+| CP5–6 Problem Statement | Tôi dùng prompt phản biện Problem Statement để rà độ rõ của actor, bottleneck, metric và boundary. | Câu hỏi về baseline và chất lượng giúp tôi bổ sung cách theo dõi thời gian, số lần sửa và số mục sai/thiếu. | Baseline khoảng 70 phút vẫn là ước tính; chưa đủ dữ liệu để xác nhận mức lỗi hay mức cải thiện. | Tôi ghi rõ cách đo trong 4 tuần và yêu cầu không tăng lỗi, thay vì khẳng định trước hiệu quả. |
+| CP6 Mức can thiệp / quyết định | Tôi tham khảo các prompt mẫu để cân nhắc No AI, Rule, Workflow và Agent. | Khung này giúp tách việc xử lý theo quy tắc khỏi phần cần nhận định của con người. | Báo cáo nhóm hiện chưa điền ma trận, mức chọn và quyết định cuối, nên chưa thể ghi một kết luận CP6 đã thống nhất. | Tôi không suy ra quyết định cuối từ đề xuất Rule trong CP5; phần này cần nhóm xác nhận và cập nhật. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Tôi thấy vấn đề nghe có vẻ rõ vẫn có thể thiếu dữ liệu. Card của tôi ghi 5 lượt hỏi lại nhưng chưa rõ qua bao nhiêu buổi; card tìm link gộp nhiều loại link vào mốc 10 phút. Candidate #12 có hai bước và thời gian ước tính riêng, nên nhóm dễ hình dung cần đo gì hơn.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có. Khi nhắc đến công thức Excel hay Power Query, nhóm phải quay lại hỏi người lập báo cáo đang mất thời gian ở bước nào. Công thức tự điền là giải pháp, còn pain là mất thời gian tra và điền số liệu. Vì vậy CP5 tập trung vào quy trình và bước PE kiểm tra, chứ không mặc định phải làm AI.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Nguyễn Tiến Đạt hỏi 5 lượt hỏi lại xảy ra trong bao nhiêu buổi và mọi người hỏi về việc gì. Tôi vẫn giữ candidate, nhưng không xem 5 lượt là baseline đủ dùng. Cần đếm theo từng buổi và ghi nội dung hỏi lại; chưa có bằng chứng để nói nhóm đã trễ hạn hay bỏ sót việc.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Survey mới có một phản hồi: người trả lời mất 170 phút, lập báo cáo 4 lần/tháng và từng nhập sai một lần. Con số này khác khá nhiều so với ước tính 70 phút của Huy. Mẫu còn quá nhỏ để kết luận, nhưng nhóm nên kiểm tra xem hai người có tính cùng phạm vi công việc không. Các công cụ được research cũng có giới hạn về cấu trúc file và quy định IT.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Khó nhất là phân biệt số ước tính với baseline đã đo. Mốc 70 phút (20 phút tra, 50 phút điền) và mục tiêu 30 phút đều cần kiểm chứng. Tôi đề xuất bấm giờ trong bốn tuần, đồng thời theo dõi lỗi để không giảm thời gian bằng cách đánh đổi độ chính xác.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Nếu làm lại, tôi sẽ ghi rõ 5 lượt hỏi lại thuộc những buổi nào và hỏi thêm nội dung nào thường bị quên. Với candidate #12, tôi sẽ đề nghị nhóm thu thêm phản hồi và xác minh quy định dùng Power Query trước khi xem hướng này là khả thi.
+
+**6.7. Hiểu bài:** Nhóm chọn candidate #12: PE mất thời gian tra số lượng sản xuất và điền form báo cáo tuần. Ước tính hiện tại là 20 phút tra và 50 phút điền, nhưng chưa được bấm giờ độc lập. Mục tiêu thử nghiệm là giảm xuống không quá 30 phút/tuần mà không tăng lỗi. Hướng CP5 là dùng Rule/Power Query để gom và ánh xạ số liệu, PE kiểm tra trước khi gửi. Nếu file hoặc mapping sai, PE quay lại làm thủ công. Nhóm chưa ghi quyết định Go / Not Yet / No-Go ở CP6, nên đây chưa phải quyết định pilot cuối cùng.
 
 ---
 
 ## 7. Tài liệu tham khảo
-
--
+- [Power Query Folder connector](https://learn.microsoft.com/en-us/power-query/connectors/folder) — tài liệu về gộp file nguồn bằng Power Query; được nhóm liệt kê ở CP4.
