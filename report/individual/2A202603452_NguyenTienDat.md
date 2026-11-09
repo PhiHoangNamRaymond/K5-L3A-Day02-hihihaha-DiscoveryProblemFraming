@@ -162,10 +162,10 @@ HIỆN TẠI — 60 phút/task
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Nhờ AI viết lại các problem tôi đã tự liệt kê thành Job Story và kiểm tra dấu hiệu thật | Viết nhanh hơn, chỉ ra dòng nào còn thiếu số liệu | AI gợi ý thêm hướng "nhắc deadline cá nhân" quá rộng, không có bằng chứng lặp lại | Bỏ ý đó, giữ 8 problem từ trải nghiệm thật |
+| CP1 Scan |  |  |  |  |
 | CP2 Problem Card | Nhờ AI đóng vai PM hoài nghi phản biện 3 card | Chỉ ra baseline 1 lần chưa đủ, metric chỉ đo thời gian | AI đề xuất Agent tự đọc Jira và tự code | Giữ mức Workflow và thêm bước người kiểm |
-| CP4 Research | Nhờ AI tóm tắt 3 link research (Power Query, xlwings Reports, InfinityQS) và so sánh công cụ nào khớp quy trình tra → điền số. | Tóm tắt nhanh, chỉ ra Power Query phù hợp vì dữ liệu nguồn có cấu trúc. | AI gợi ý dùng giải pháp SPC của InfinityQS, quá lớn so với một PE và một biểu mẫu Excel. | Bỏ InfinityQS, chỉ giữ Power Query + mẫu Excel. |
-| CP5 Quy trình | Nhờ AI kiểm tra quy trình trước/sau có thiếu bước người kiểm (HITL) và phương án quay về không. | Chỉ ra bước “PE đối chiếu” chưa có tiêu chí dừng rõ ràng. | AI mô tả chung chung kiểu “AI hỗ trợ kiểm tra”, không nói ai kiểm cái gì. | Thêm boundary: Rule không tự sửa số, không tự gửi; PE kiểm từng mục. |
+| CP4 Research |  |  |  |  |
+| CP5 Quy trình |  |  | |  |
 | CP5–6 Problem Statement | Nhờ AI soi lỗ hổng metric: baseline đang trộn 70 phút với 170 phút, thiếu tiêu chí chất lượng. | Phát hiện phạm vi đo chưa tách và metric chỉ có thời gian. | AI đề xuất thêm “AI dự đoán số liệu tuần sau” — không liên quan vì dữ liệu đã có sẵn trong file nguồn. | Tách baseline 70 phút (tra + điền) và 170 phút (toàn báo cáo), thêm 0 lỗi sau nộp. |
 | CP6 Mức can thiệp / quyết định | Nhờ AI lập bảng so sánh 4 mức can thiệp và liệt kê rủi ro của từng mức. | Bảng so sánh đủ 4 mức, giúp thấy Rule rẻ và ổn định hơn Agent. | AI nghiêng về Agent/Workflow vì “linh hoạt hơn”, trong khi bài toán chỉ là ánh xạ cột cố định. | Hạ xuống Rule; thêm rủi ro lệch layout file và phương án quay về thủ công. |
 
@@ -185,8 +185,7 @@ Nhóm có bị "solution-first", lúc đó nhóm thảo luận lại kĩ hơn
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Tôi đổi ý từ card #1 sang card #12. Ban đầu tôi bảo vệ #1 vì quy trình rõ và tôi đã trải qua. Nhưng khi đặt hai card cạnh nhau, #1 chỉ xảy ra một lần, còn #12 lặp lại hằng tuần và tách được hai bước đo riêng: 20 phút tra số, 50 phút điền form. Nhóm chấm #12 được 29/35, cao hơn #1. Tôi đồng ý vì tiêu chí lặp lại và đo được quan trọng hơn cảm giác “vấn đề của mình cũng hay”. Đây là lần đầu tôi thấy mình phải bỏ một card do chính mình pitch.
-Tôi có đổi ý từ card #1 sang card #12 bởi vì tiêu chí lặp lại, card #12 lặp lại hàng tuần so với card #1 thì chỉ lặp lại 1 lần
+Tôi có đổi ý từ card #1 sang card #12 vì tiêu chí lặp lại, card #12 lặp lại hàng tuần trong khi card #1 chỉ xảy ra 1 lần
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
