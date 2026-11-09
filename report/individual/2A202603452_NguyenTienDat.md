@@ -7,9 +7,9 @@
 
 - Họ tên: Nguyen Tien Dat
 - MSSV: 2A202603452
-- Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm: (điền khi chốt tên nhóm)
-- Link repo nhóm: https://github.com/PhiHoangNamRaymond/K5-L3A-Day02-PhiHoangNam-2A202603435-DiscoveryProblemFraming
+- Email trường 26ai.datnt23@vinuni.edu.vn
+- Tên nhóm: PhiHoangNam2A202603435
+- Link repo nhóm: https://github.com/PhiHoangNamRaymond/K5-L3A-Day02-PhiHoangNam2A202603435-DiscoveryProblemFraming
 
 ---
 
