@@ -56,20 +56,23 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Cần tách thời gian theo từng bước để kiểm chứng. Với #12, số liệu ban đầu là 20 phút tra số lượng và 50 phút điền biểu mẫu.
 
-### HoVaTen-MSSV
+### NguyenBaThanh-2A202603499
 
-**Phần việc phụ trách:**
+**Phần việc phụ trách**
 
--
+- Pitch Problem Card #7; tham gia chọn candidate cùng nhóm; phụ trách hoàn thiện CP5.
 
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+**Đóng góp cụ thể**
 
--
+- Pitch vấn đề hỏi lại việc, người phụ trách và hạn sau họp; đặt câu hỏi cho ba pitch #1, #5, #10 và ghi nhận câu hỏi phản biện mình nhận được.
+- Cùng nhóm so sánh shortlist #12, #8, #7. Nhóm chọn #12 với 29/35 điểm.
+- Hoàn thiện quy trình CP5 trước/sau và Problem Statement v0: baseline ước tính 70 phút/tuần, mục tiêu thử nghiệm 30 phút; PE vẫn kiểm tra số liệu.
 
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+**Bằng chứng**
 
--
+- [Mục 2 — CP3: pitch, cluster và shortlist](report/team/group_report.md#2-hội-tụ-nhóm-cp3).
+- [Mục 4–5 — CP5: quy trình và Problem Statement v0](report/team/group_report.md#4-quy-trình-trướcsau-cp5).
 
-**Điều mình học được từ phần nhóm:**
+**Điều mình học được từ phần nhóm**
 
--
+- Số liệu ước tính chưa đủ để kết luận; cần đo lại thời gian và kiểm lỗi trước khi đánh giá quy trình mới.
