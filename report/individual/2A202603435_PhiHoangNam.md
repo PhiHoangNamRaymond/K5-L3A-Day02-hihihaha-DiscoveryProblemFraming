@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — 2A202603435_PhiHoangNam
+# Báo cáo cá nhân — Phí Hoàng Nam (2A202603435)
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -6,10 +6,10 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên: Phí Hoàng Nam
-- MSSV: 2A202603435
+- Họ tên:Phí Hoàng Nam
+- MSSV:2A202603435
 - Email trường (không bắt buộc, repo có thể để public): 26ai.namph3@vinuni.edu.vn
-- Tên nhóm: PhiHoangNam-2A202603435
+- Tên nhóm: hihihaha
 - Link repo nhóm: https://github.com/PhiHoangNamRaymond/K5-L3A-Day02-PhiHoangNam-2A202603435-DiscoveryProblemFraming
 
 ---
@@ -134,11 +134,11 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
+| Pitch Problem Card | Ba đề xuất của tôi có trong bảng Pitch, ở các dòng #4–#6. Card ưu tiên là #4, tổng hợp đầu việc khi nhận bài lab. | Phần mô tả tách thời gian chuẩn bị Day 1 có cả Colab và thời gian ước tính riêng cho bước tổng hợp yêu cầu. |
+| Phản biện bài của bạn khác | Chờ ghi câu tôi thực sự đặt, kèm tên người nhận và số đề xuất. | |
+| Nhận phản biện | Chờ ghi tên người hỏi và câu tôi thực sự nhận được. | Ghi cụ thể nội dung đã sửa sau khi trao đổi. |
+| Gom cluster / cây OST | Tôi cập nhật bảng gom 12 đề xuất thành 3 cụm và đưa các điểm nghẽn chung vào cây OST. | Nhóm có ba cụm để rút shortlist, mỗi cụm có một đề xuất đại diện. |
+| Chọn candidate problem | Tôi cập nhật bảng chấm #12, #7 và #8, rồi ghi lại lựa chọn #12 và lý do loại hai đề xuất còn lại. | Nhóm chọn kiểm chứng hai bước của #12 ở CP4: tra số lượng sản xuất và điền số liệu vào form. |
 | Kiểm chứng / research | | |
 | Quy trình nhóm | | |
 | Problem Statement | | |
@@ -153,6 +153,7 @@ Quy trình nháp hiện tại:
 |---|---|---|---|---|
 | CP1 Scan | Nhờ AI góp ý cấu trúc Job Story sau khi tôi đã ghi 5 tình huống. | AI giúp diễn đạt rõ bối cảnh, nhu cầu và kết quả mong muốn. | Mẫu của AI cần thêm số liệu và chi tiết từ trải nghiệm của tôi. | Tôi bổ sung các lần tìm link, bỏ lỡ workshop và chuẩn bị bài lab mà tôi đã ghi nhận. |
 | CP2 Problem Card | Nhờ AI soạn khung ba card và phản biện bottleneck. | AI giúp tách quy trình thành từng bước và chỉ ra rằng tổng thời gian chưa cho biết bước nào nghẽn. | Khung mẫu cần đối chiếu với các thao tác và thời gian thực tế của tôi. | Tôi bổ sung các bước và thời gian đã ghi. Tôi nhờ AI rà lại các mốc mâu thuẫn và ghi rõ mốc nào là ước tính. |
+| CP3 — Chuẩn bị tài liệu | Nhờ AI rà bảng gom cụm, cây OST, điểm shortlist và soạn câu hỏi nháp. | AI giúp đối chiếu 12 đề xuất và gắn các câu nháp với điểm nghẽn của từng card. | Điểm chỉ dựa trên dữ kiện hiện có. AI không biết câu hỏi nào thực sự được trao đổi. | Tôi đối chiếu lại số liệu trong các card, ghi rõ câu hỏi dự kiến và sẽ cập nhật câu phản biện thật sau khi nhóm trao đổi. |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
