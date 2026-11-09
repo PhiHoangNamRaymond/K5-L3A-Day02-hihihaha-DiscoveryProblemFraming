@@ -8,8 +8,8 @@
 - Họ tên: Nguyen Tien Dat
 - MSSV: 2A202603452
 - Email trường 26ai.datnt23@vinuni.edu.vn
-- Tên nhóm: PhiHoangNam2A202603435
-- Link repo nhóm: https://github.com/PhiHoangNamRaymond/K5-L3A-Day02-PhiHoangNam2A202603435-DiscoveryProblemFraming
+- Tên nhóm: hihihaha
+- Link repo nhóm: https://github.com/PhiHoangNamRaymond/K5-L3A-Day02-hihihaha-DiscoveryProblemFraming.git
 
 ---
 
