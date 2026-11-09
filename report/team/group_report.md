@@ -111,7 +111,7 @@ Bộ câu hỏi survey — hỏi **hành vi đã xảy ra**, không hỏi giả 
 7. Trong 4 tuần gần nhất, có tuần nào bạn nhập sai số hoặc nộp trễ không? Chuyện gì đã xảy ra?
 8. Bạn từng dùng công cụ nào (Power Query, macro, phần mềm SPC/MES…) để giảm thời gian chưa? Kết quả ra sao?
 
-Kết quả survey (hiện có **1 phản hồi**; cần thêm 4–9 để đủ mốc 5–10 người):
+Kết quả survey (hiện có **5 phản hồi** — đã đạt mốc tối thiểu 5; có thể thêm tới 10, hoặc 20 để đủ điều kiện bonus B2):
 
 Phản hồi #1 — vai trò: người lập báo cáo định kỳ (không ghi tên thật):
 
@@ -124,6 +124,58 @@ Phản hồi #1 — vai trò: người lập báo cáo định kỳ (không ghi 
 | 5. Điền form bằng cách nào? | Excel |
 | 6. Tần suất lập báo cáo? | 4 lần/tháng |
 | 7. 4 tuần gần nhất có sai/trễ không? | 1 lần nhập sai, 0 lần trễ |
+| 8. Đã dùng công cụ nào để giảm thời gian? | Chưa dùng |
+
+Phản hồi #2 — vai trò: người lập báo cáo định kỳ (không ghi tên thật):
+
+| Câu hỏi | Trả lời |
+|---|---|
+| 1. Có lập báo cáo định kỳ? | Có |
+| 2. Lần gần nhất mất bao lâu? | 200 phút |
+| 3. Bước tốn thời gian nhất? | Chép số liệu vào form · viết nhận xét/action |
+| 4. Số liệu lấy từ đâu? | Hệ thống test |
+| 5. Điền form bằng cách nào? | Excel |
+| 6. Tần suất lập báo cáo? | 4 lần/tháng |
+| 7. 4 tuần gần nhất có sai/trễ không? | 1 lần sai, 0 lần trễ |
+| 8. Đã dùng công cụ nào để giảm thời gian? | Chưa dùng |
+
+Phản hồi #3 — vai trò: người lập báo cáo định kỳ (không ghi tên thật):
+
+| Câu hỏi | Trả lời |
+|---|---|
+| 1. Có lập báo cáo định kỳ? | Có |
+| 2. Lần gần nhất mất bao lâu? | 210 phút |
+| 3. Bước tốn thời gian nhất? | Chép số liệu vào form · viết nhận xét/action |
+| 4. Số liệu lấy từ đâu? | (không trả lời) |
+| 5. Điền form bằng cách nào? | Excel |
+| 6. Tần suất lập báo cáo? | 4 lần/tháng |
+| 7. 4 tuần gần nhất có sai/trễ không? | 1 lần sai, 0 lần trễ |
+| 8. Đã dùng công cụ nào để giảm thời gian? | Chưa dùng |
+
+Phản hồi #4 — vai trò: người lập báo cáo định kỳ (không ghi tên thật):
+
+| Câu hỏi | Trả lời |
+|---|---|
+| 1. Có lập báo cáo định kỳ? | Có |
+| 2. Lần gần nhất mất bao lâu? | 170 phút |
+| 3. Bước tốn thời gian nhất? | Chép số liệu vào form · viết nhận xét/action |
+| 4. Số liệu lấy từ đâu? | (không trả lời) |
+| 5. Điền form bằng cách nào? | Excel |
+| 6. Tần suất lập báo cáo? | 4 lần/tháng |
+| 7. 4 tuần gần nhất có sai/trễ không? | 0 lần sai, 0 lần trễ |
+| 8. Đã dùng công cụ nào để giảm thời gian? | Chưa dùng |
+
+Phản hồi #5 — vai trò: người lập báo cáo định kỳ (không ghi tên thật):
+
+| Câu hỏi | Trả lời |
+|---|---|
+| 1. Có lập báo cáo định kỳ? | Có |
+| 2. Lần gần nhất mất bao lâu? | 140 phút |
+| 3. Bước tốn thời gian nhất? | Chép số liệu vào form · viết nhận xét/action |
+| 4. Số liệu lấy từ đâu? | (không trả lời) |
+| 5. Điền form bằng cách nào? | Excel |
+| 6. Tần suất lập báo cáo? | 4 lần/tháng |
+| 7. 4 tuần gần nhất có sai/trễ không? | 1 lần sai, 0 lần trễ |
 | 8. Đã dùng công cụ nào để giảm thời gian? | Chưa dùng |
 
 *Nếu bổ sung phỏng vấn, mỗi buổi ghi một Interview Snapshot theo bảng dưới (hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):*
@@ -139,14 +191,25 @@ Interview Snapshot #1:
 | Mất bao lâu, bao lần? | Khoảng 60 phút để kiểm tra |
 | Insight / opportunity rút ra | Pain nằm ở bước tổng hợp/đối chiếu thông tin có sẵn và rà soát lại khi số liệu lệch. Người được hỏi tự đề xuất "AI agent quản lý dữ liệu" — đây là **solution**, không đưa vào tầng opportunity. |
 
+Interview Snapshot #2:
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | PM (Project Manager) |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Bị khách hàng phàn nàn về sai số liệu." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Cách đây 3 tuần |
+| Hiện đang xử lý bằng cách nào (workaround)? | Xin lỗi khách hàng, rà soát lại dữ liệu |
+| Mất bao lâu, bao lần? | Khoảng 3 tháng sai 1 lần |
+| Insight / opportunity rút ra | Sai số liệu không chỉ tốn thời gian nội bộ mà còn ảnh hưởng bên ngoài (khách hàng phàn nàn). Người được hỏi tự đề xuất "cần một tool quản lý dữ liệu" — đây là **solution**, không đưa vào tầng opportunity. |
+
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Survey (đồng nghiệp PE/QA) | 1 | 1/1 nói bước tốn thời gian nhất là chép số liệu vào form; 1/1 lấy dữ liệu từ hệ thống test và điền form thủ công bằng Excel; 1/1 chưa dùng công cụ hỗ trợ; 1/1 từng nhập sai số | Chưa có phản bác (n=1). Ghi chú: tổng thời gian 170 phút cao hơn baseline 70 phút của #12 → cần đối chiếu phạm vi báo cáo |
-| Phỏng vấn (QA) | 1 | 1/1 mất ~60 phút rà soát lại vì sai thông số làm số liệu không khớp; nói mất thời gian khi tổng hợp thông tin đã có sẵn | Chưa có phản bác |
+| Survey (đồng nghiệp PE/QA) | 5 | 5/5 nói bước tốn thời gian nhất là chép số liệu vào form (4 người thêm "viết nhận xét/action"); 5/5 điền form thủ công bằng Excel; 5/5 chưa dùng công cụ hỗ trợ; 4/5 từng nhập sai số (1 lần/4 tuần), 0/5 trễ hạn; thời gian 170, 200, 210, 170 và 140 phút (trung vị 170) | Chưa có phản bác về pain (n=5). Ghi chú khác biệt: 1/5 nói 0 lần sai trong 4 tuần; 1/5 lập báo cáo chỉ 140 phút. Cả năm đều cao hơn baseline 70 phút của #12 → cần đối chiếu phạm vi báo cáo |
+| Phỏng vấn | 2 | QA: mất ~60 phút rà soát lại vì sai thông số làm số liệu không khớp, nói mất thời gian khi tổng hợp thông tin đã có sẵn. PM: bị khách hàng phàn nàn về sai số liệu (cách đây 3 tuần), phải xin lỗi khách hàng và rà soát lại dữ liệu; tần suất sai ~3 tháng/lần | Chưa có phản bác |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** Tín hiệu sơ bộ (1 survey + 1 phỏng vấn) đều xác nhận pain nằm ở bước tổng hợp/đối chiếu số liệu (chép vào form, rà soát lại khi lệch). Chưa ghi nhận tín hiệu phản bác; cần thêm mẫu để chốt baseline thời gian (170 so với 70 phút).
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Tín hiệu sơ bộ (5 survey + 2 phỏng vấn, đã đạt mốc tối thiểu về số mẫu ở cả hai cách) đều xác nhận pain nằm ở bước tổng hợp/đối chiếu số liệu (chép vào form, rà soát lại khi lệch). Phỏng vấn PM mở rộng hệ quả ra bên ngoài: sai số liệu từng khiến khách hàng phàn nàn. Chưa ghi nhận tín hiệu phản bác; cần chốt lại định nghĩa/phạm vi "thời gian lập báo cáo" vì mẫu cho 140–210 phút, cao hơn nhiều so với baseline 70 phút của #12.
 
 ### 3.3. Research giải pháp đã có
 
